@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Feedback } from "../Feedback/Feedback";
-import { Options } from "../Options/Options";
-import { Notification } from "../Notifications/Notifications";
+// import { Feedback } from "../Feedback/Feedback";
+// import { Options } from "../Options/Options";
+// import { Notification } from "../Notifications/Notifications";
 import { Description } from "../Description/Description.jsx";
 
 export const App = () => {
