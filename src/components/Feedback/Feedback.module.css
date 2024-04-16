@@ -1,0 +1,17 @@
+.feedbackContainer {
+    margin-right: 100px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .feedbackTitle {
+    margin-left: 100px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feedbackItem {
+    margin-left: 100px;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
