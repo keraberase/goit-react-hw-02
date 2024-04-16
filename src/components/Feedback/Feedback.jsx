@@ -1,11 +1,7 @@
 import css from "./Feedback.module.css";
 
-export const Feedback = ({ feedback, totalFeedback }) => {
+export const Feedback = ({ feedback, totalFeedback, positivePercentage }) => {
   const { good, neutral, bad } = feedback;
-
-  const positivePercentage = Math.round(
-    ((good + neutral) / totalFeedback) * 100
-  );
 
   return (
     <div className={css.feedbackContainer}>
